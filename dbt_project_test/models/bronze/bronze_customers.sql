@@ -1,2 +1,2 @@
-select * from 
-{{ source("source", "dim_customer")}}
+
+select * from {{ source("source", "dim_customer") }}
