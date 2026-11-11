@@ -1,3 +1,3 @@
 
 select * from 
-{{ ref ('bronze_sales') }}
+{{ ref ('lookup') }}
