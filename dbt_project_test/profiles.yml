@@ -6,7 +6,7 @@ dbt_project_test:
       http_path: /sql/1.0/warehouses/91b3bc3c7ac88e76
       schema: source
       threads: 1
-      token: dapi584873ae41ea59b7b92c5d67a1d11108
+      token: 
       type: databricks
     prod:
       catalog: dbt_catalog_prod
@@ -14,6 +14,6 @@ dbt_project_test:
       http_path: /sql/1.0/warehouses/91b3bc3c7ac88e76
       schema: source
       threads: 1
-      token: dapi584873ae41ea59b7b92c5d67a1d11108
+      token: 
       type: databricks
   target: dev
